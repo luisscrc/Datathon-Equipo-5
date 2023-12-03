@@ -4,7 +4,7 @@ Aquí tienes las tareas agrupadas y divididas entre Guillermo, Luis y Víctor, s
 ### Tareas de Guillermo
 - [ ] **Posición**: Pasarla como una variable categórica y usar OneHotEncoder.
 - [ ] **Motivo de la Renuncia**: Continuar con la limpieza y clasificación de las razones, diferenciando entre renuncias voluntarias e impuestas. Dividir en columna con 1 como renuncia voluntaria y 2 como no voluntaria, aplicar variable categórica y emplear encoder.
-- [ ] **Clave de sexo**: Convertir a datos categóricos en pandas (M para masculino, F para femenino).
+- [X] **Clave de sexo**: Convertir a datos categóricos en pandas (M para masculino, F para femenino).
 
 ### Tareas de Luis
 - [ ] **Área**: Esperar el mensaje de Luis en WhatsApp para explicar el significado de las iniciales y pasarla como una variable categórica usando OneHotEncoder.

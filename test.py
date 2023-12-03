@@ -1,3 +1,12 @@
+
+import numpy as np
+
+import matplotlib.pyplot as plt
+import sklearn
+import cudf.pandas
+# pandas API is now GPU accelerated
+
+import pandas as pd
 from geopy.geocoders import Nominatim
 from geopy.distance import geodesic
 
