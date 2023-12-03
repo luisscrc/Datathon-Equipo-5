@@ -10,13 +10,13 @@ Aquí tienes las tareas agrupadas y divididas entre Guillermo, Luis y Víctor, s
 - [ ] **Área**: Esperar el mensaje de Luis en WhatsApp para explicar el significado de las iniciales y pasarla como una variable categórica usando OneHotEncoder.
 - [ ] **Grupo de personal**: Esperar detalles de Luis en WhatsApp, y luego pasarla como una variable categórica usando OneHotEncoder.
 - [ ] **Lugar de Nacimiento**: Convertir a mayúsculas una vez que Luis pase el archivo limpio.
-- [ ] **Estado Civil**: Convertir a categoría una vez que esté limpio.
+- [X] **Estado Civil**: Convertir a categoría una vez que esté limpio.
 
 ### Tareas de Víctor
 - [X] **A líquida**: Decidir si se elimina (Drop) por no estar disponible.
 - [ ] **Código Postal**: Usar API para determinar el lugar actual de vivienda, integrar los códigos que no corresponden y consumir API para agregar columna de distancia a Bosch.
 - [X] **Tiempo Viviendo en Ciudad Juárez**: Convertir a categoría.
-- [ ] **Hijos**: Contabilizar el número de hijos y crear una nueva columna para indicar si tienen hijos o no.
+- [X] **Hijos**: Contabilizar el número de hijos y crear una nueva columna para indicar si tienen hijos o no.
 
 ### Tareas Pendientes (No Asignadas)
 - [ ] **Baja**: Fecha en que los empleados salen de la empresa.
