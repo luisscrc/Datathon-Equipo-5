@@ -9,7 +9,7 @@ Aquí tienes las tareas agrupadas y divididas entre Guillermo, Luis y Víctor, s
 ### Tareas de Luis
 - [ ] **Área**: Esperar el mensaje de Luis en WhatsApp para explicar el significado de las iniciales y pasarla como una variable categórica usando OneHotEncoder.
 - [ ] **Grupo de personal**: Esperar detalles de Luis en WhatsApp, y luego pasarla como una variable categórica usando OneHotEncoder.
-- [ ] **Lugar de Nacimiento**: Convertir a mayúsculas una vez que Luis pase el archivo limpio.
+- [X] **Lugar de Nacimiento**: Convertir a mayúsculas una vez que Luis pase el archivo limpio.
 - [X] **Estado Civil**: Convertir a categoría una vez que esté limpio.
 
 ### Tareas de Víctor
