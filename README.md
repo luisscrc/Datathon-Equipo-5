@@ -1,105 +1,49 @@
-# To Do
-Aquí tienes las tareas agrupadas y divididas entre Guillermo, Luis y Víctor, según las instrucciones proporcionadas:
+# Proyecto de Datathon Bosch 
 
-### Tareas de Guillermo
-- [x] **Posición**: Pasarla como una variable categórica y usar OneHotEncoder.
-- [ ] **Motivo de la Renuncia**: Continuar con la limpieza y clasificación de las razones, diferenciando entre renuncias voluntarias e impuestas. Dividir en columna con 1 como renuncia voluntaria y 2 como no voluntaria, aplicar variable categórica y emplear encoder.
-- [X] **Clave de sexo**: Convertir a datos categóricos en pandas (M para masculino, F para femenino).
-
-### Tareas de Luis
-- [ ] **Área**: Esperar el mensaje de Luis en WhatsApp para explicar el significado de las iniciales y pasarla como una variable categórica usando OneHotEncoder.
-- [ ] **Grupo de personal**: Esperar detalles de Luis en WhatsApp, y luego pasarla como una variable categórica usando OneHotEncoder.
-- [X] **Lugar de Nacimiento**: Convertir a mayúsculas una vez que Luis pase el archivo limpio.
-- [X] **Estado Civil**: Convertir a categoría una vez que esté limpio.
-
-### Tareas de Víctor
-- [X] **A líquida**: Decidir si se elimina (Drop) por no estar disponible.
-- [X] **Código Postal**: Usar API para determinar el lugar actual de vivienda, integrar los códigos que no corresponden y consumir API para agregar columna de distancia a Bosch.
-- [X] **Tiempo Viviendo en Ciudad Juárez**: Convertir a categoría.
-- [X] **Hijos**: Contabilizar el número de hijos y crear una nueva columna para indicar si tienen hijos o no.
-
-### Tareas Pendientes (No Asignadas)
-- [ ] **Baja**: Fecha en que los empleados salen de la empresa.
-- [ ] **Alta**: Fecha en que los empleados entran a la empresa.
-- [X] **Regla PHT**: Dejar para después como variable categórica.
-
-### Tareas Completadas
-- [X] **Años**: Duración en años que el empleado estuvo en la empresa.
-- [X] **Meses**: Duración en meses que el empleado estuvo en la empresa.
-- [X] **Antigüedad**: Total de días que el empleado estuvo en la empresa.
-- [X] **Nacionalidad**: Información disponible.
-- [X] **Edad del Empleado**: Información disponible.
-
-Este formato te permite visualizar claramente las responsabilidades asignadas a cada persona, así como las tareas pendientes y completadas.
-
-# Datathon-Equipo-5
-Desarrollo del problema propuesto por Bosch 
-
-Esta es una rama de pruebas. 
+Este proyecto se centra en analizar y comprender la deserción laboral en la planta de Bosch ubicada en Ciudad Juárez, Chihuahua. Utilizando un modelo de regresión logística, el proyecto busca identificar los factores clave que influyen en que un empleado permanezca en la empresa más tiempo que la media observada, que suele ser menor a cuatro años.
 
 
-# Análisis de Datos - Checklist
+## Estructura del Proyecto
 
-## Descripción de las Columnas
+Descripción de la estructura del proyecto y qué contiene cada archivo o directorio.
 
-- [ ] **Posición**: No tenemos información. - 
-- [ ] **Área**: Luis pasará un mensaje en WhatsApp explicando el significado de las iniciales.
-- [ ] **A líquida**: No disponible.
-- [ ] **Grupo de personal**: Luis proporcionará detalles en WhatsApp.
-- [ ] **Código Postal**: Usar API para determinar el lugar actual de vivienda. Dos códigos no corresponden.
-- [ ] **Motivo de la Renuncia**: Continuar con la limpieza y clasificación de las razones, diferenciando entre renuncias voluntarias e impuestas.
-- [X] **Baja**: Fecha en que los empleados salen de la empresa.
-- [X] **Alta**: Fecha en que los empleados entran a la empresa.
-- [X] **Regla PHT**: Se desconoce su significado.
-- [X] **Años**: Duración en años que el empleado estuvo en la empresa.
-- [X] **Meses**: Duración en meses que el empleado estuvo en la empresa.
-- [X] **Antigüedad**: Total de días que el empleado estuvo en la empresa.
-- [X] **Clave de sexo**: M (Masculino) y F (Femenino).
-- [X] **Lugar de Nacimiento**: Ya está limpio. Falta convertir a mayúsculas.
-- [X] **Nacionalidad**: Información disponible.
-- [X] **Edad del Empleado**: Información disponible.
-- [X] **Tiempo Viviendo en Ciudad Juárez**: Convertir a categoría.
-- [X] **Estado Civil**: Incluye soltero, casado, separado.
-- [X] **Hijos**: Número de hijos. Crear nueva columna para indicar si tienen hijos o no.
+- `Datathon 2-2.ipynb`: Análisis detallado y desarrollo del modelo para el datathon. **Aqui se desarrolla la limpieza de datos.**
+- `README.md`: Información general y guía para este proyecto.
+- `arbol_de_decision_antiguedad.ipynb`: Notebook con el modelo de árbol de decisión enfocado en la antigüedad. **Este es el archivo estrella de nuestro proyecto** pues es en est[a la interfaz de gradio funcional.
+- `bosch_aic_datathon_limpio.csv`: Conjunto de datos limpio utilizado para análisis y modelado.
+- `data/`: Datos originales en formato Excel.
+- `data_sucia.csv`: Conjunto de datos inicial con un procesamiento minimo. Usado como checkpoint.
+- `data_sucia_con_coordenadas.csv`: Datos originales enriquecidos con información de coordenadas.
+- `distribucion_empleados.html`: Visualización de la distribución de los empleados. Este archivo es generado por Folium.
+- `distribucion_empleados_mapa_calor.html`: Representación en mapa de calor de la distribución de empleados. Este archivo es generado por Folium.
+- `flagged/`: Directorio que contiene logs y archivos marcados para revisión.
+- `graficas.ipynb`: Notebook para la generación de gráficas relacionadas con el análisis de los datos tomando como punto de partida el archivo data_sucia_con_coordenadas.csv
+- `modelo_regresionlog_motivos_renuncia.ipynb`: Modelo de regresión logística para analizar los motivos de renuncia.
 
 
-# Proyectos de Análisis de Datos en Recursos Humanos
+## Participantes
+- Luis Escarcega Corona
+- Luis Guillermo Rodriguez Lopez
+- Luis Adrian Garcia Acosta
 
-## 1. Modelo Predictivo de Retención de Empleados
-- **Objetivo**: Identificar factores clave que influyen en la retención y desarrollar un modelo para predecir la probabilidad de renuncia de un empleado.
-- Hay que hacer un scatterplot para identificar la correlacion de las caracteristicas con la probabilidad de una renuncia
-- Se crea un modelo de machine learning que pueda evaluar la probabilidad de renuncia o despido del 1 al 10
-- Tenemos los DNO
 
-## 2. Análisis de Diversidad en el Lugar de Trabajo
-- **Objetivo**: Evaluar el estado actual de la diversidad en la organización y proponer estrategias para mejorarla.
-- Hacer graficas sobre las diversidad laboral en distintas categorias en las que son necesarias como por ejemplo, su sexo, estado civil, edad expresada en rangos y en graficas lineales, estado civil, si tienen hijos o no y cuantos tienen.
-- Nos puede salvar si hacemos plot que muestre la relacion entre sueldos, puestos de hombres y mujeres
+## Tecnologías Utilizadas
 
-## 3. Estrategias de Desarrollo de Carrera
-- **Objetivo**: Analizar datos para identificar patrones en el ascenso y desarrollo de carrera, y recomendar vías para el progreso de los empleados.
-- Hacer investigacion de que tan probable es que el personal se quede en una organizacion basados en informacion
+Descripción de las tecnologías, lenguajes de programación y librerías utilizadas:
 
-## 4. Impacto de la Ubicación en la Satisfacción Laboral
-- **Objetivo**: Estudiar cómo la ubicación geográfica afecta la satisfacción y retención de los empleados.
-- Es mas probable que alguien nacido en otro estado se vaya de la empresa? 
-- Que tan probable es que alguien se vaya por motivos de transporte o reubicacion
-- Distancia al lugar de
-- Nos puede salvar(Si encontramos que a mayor distancia mayor resercion)
+- Python: Lenguaje de programación principal.
+- Pandas, NumPy: Para la manipulación y análisis de datos.
+- Scikit-Learn: Para la construcción y evaluación de modelos de machine learning.
+- Matplotlib, Seaborn: Para visualizaciones de datos.
+- Gradio: Facilita la creación y compartición de interfaces de usuario para prototipos de modelos de machine learning, permitiendo demostraciones interactivas.
+- Rapids: Suite de bibliotecas para ciencia de datos y machine learning en GPUs, proporcionando APIs similares a Pandas y Scikit-Learn con procesamiento acelerado.
+- Plotly-Express: Biblioteca para gráficos interactivos y de alta calidad, permitiendo la creación de visualizaciones complejas con una sintaxis simple.
+- Folium: Utilizada para la visualización de datos geoespaciales, facilita la creación de mapas interactivos en entornos Python y Jupyter Notebook.
+- Anaconda: Distribución de Python y R para computación científica, que simplifica la gestión de paquetes y entornos para la ciencia de datos.
 
-## 5. Tendencias Salariales y Equidad
-- **Objetivo**: Examinar las tendencias salariales y proponer medidas para asegurar la equidad salarial en la organización.
-- Ver la manera de incluir tendencias salariales aunque no se tengan
-- Nos puede salvar 
+## Enlace a la conclusión en LaTEX
 
-## 6. Optimización del Equilibrio Vida Laboral-Personal
-- **Objetivo**: Proponer soluciones basadas en datos para mejorar el equilibrio vida laboral-personal de los empleados.
-- Nos puede salvar (Hacer investigacion con datos cientificos de la vida laboral y personal con la desercion laboral)
 
-## 7. Visualización Innovadora de Datos de RH
-- **Objetivo**: Crear visualizaciones interactivas que destaquen insights clave de los datos de RH.
--- Determinar KPIs que se puedan graficar
+## Resultados del modelo
+- Accuracy de 0.75. 
 
-## Notas Adicionales
-- Considerar otros aspectos relevantes que puedan surgir durante el análisis de datos.
-- Proporcionar mas datos 
