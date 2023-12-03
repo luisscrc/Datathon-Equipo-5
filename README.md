@@ -74,6 +74,7 @@ Esta es una rama de pruebas.
 ## 2. Análisis de Diversidad en el Lugar de Trabajo
 - **Objetivo**: Evaluar el estado actual de la diversidad en la organización y proponer estrategias para mejorarla.
 - Hacer graficas sobre las diversidad laboral en distintas categorias en las que son necesarias como por ejemplo, su sexo, estado civil, edad expresada en rangos y en graficas lineales, estado civil, si tienen hijos o no y cuantos tienen.
+- Nos puede salvar si hacemos plot que muestre la relacion entre sueldos, puestos de hombres y mujeres
 
 ## 3. Estrategias de Desarrollo de Carrera
 - **Objetivo**: Analizar datos para identificar patrones en el ascenso y desarrollo de carrera, y recomendar vías para el progreso de los empleados.
@@ -84,16 +85,21 @@ Esta es una rama de pruebas.
 - Es mas probable que alguien nacido en otro estado se vaya de la empresa? 
 - Que tan probable es que alguien se vaya por motivos de transporte o reubicacion
 - Distancia al lugar de
+- Nos puede salvar(Si encontramos que a mayor distancia mayor resercion)
 
 ## 5. Tendencias Salariales y Equidad
 - **Objetivo**: Examinar las tendencias salariales y proponer medidas para asegurar la equidad salarial en la organización.
 - Ver la manera de incluir tendencias salariales aunque no se tengan
+- Nos puede salvar 
 
 ## 6. Optimización del Equilibrio Vida Laboral-Personal
 - **Objetivo**: Proponer soluciones basadas en datos para mejorar el equilibrio vida laboral-personal de los empleados.
+- Nos puede salvar (Hacer investigacion con datos cientificos de la vida laboral y personal con la desercion laboral)
 
 ## 7. Visualización Innovadora de Datos de RH
 - **Objetivo**: Crear visualizaciones interactivas que destaquen insights clave de los datos de RH.
+-- Determinar KPIs que se puedan graficar
 
 ## Notas Adicionales
 - Considerar otros aspectos relevantes que puedan surgir durante el análisis de datos.
+- Proporcionar mas datos 
