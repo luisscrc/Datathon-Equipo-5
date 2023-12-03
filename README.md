@@ -13,9 +13,9 @@ Aquí tienes las tareas agrupadas y divididas entre Guillermo, Luis y Víctor, s
 - [ ] **Estado Civil**: Convertir a categoría una vez que esté limpio.
 
 ### Tareas de Víctor
-- [ ] **A líquida**: Decidir si se elimina (Drop) por no estar disponible.
+- [X] **A líquida**: Decidir si se elimina (Drop) por no estar disponible.
 - [ ] **Código Postal**: Usar API para determinar el lugar actual de vivienda, integrar los códigos que no corresponden y consumir API para agregar columna de distancia a Bosch.
-- [ ] **Tiempo Viviendo en Ciudad Juárez**: Convertir a categoría.
+- [X] **Tiempo Viviendo en Ciudad Juárez**: Convertir a categoría.
 - [ ] **Hijos**: Contabilizar el número de hijos y crear una nueva columna para indicar si tienen hijos o no.
 
 ### Tareas Pendientes (No Asignadas)
@@ -58,9 +58,9 @@ Esta es una rama de pruebas.
 - [ ] **Lugar de Nacimiento**: Ya está limpio. Falta convertir a mayúsculas.
 - [ ] **Nacionalidad**: Información disponible.
 - [ ] **Edad del Empleado**: Información disponible.
-- [ ] **Tiempo Viviendo en Ciudad Juárez**: Convertir a categoría.
+- [X] **Tiempo Viviendo en Ciudad Juárez**: Convertir a categoría.
 - [ ] **Estado Civil**: Incluye soltero, casado, separado.
-- [ ] **Hijos**: Número de hijos. Crear nueva columna para indicar si tienen hijos o no.
+- [X] **Hijos**: Número de hijos. Crear nueva columna para indicar si tienen hijos o no.
 
 
 # Proyectos de Análisis de Datos en Recursos Humanos
