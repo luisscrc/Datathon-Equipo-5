@@ -2,7 +2,7 @@
 Aquí tienes las tareas agrupadas y divididas entre Guillermo, Luis y Víctor, según las instrucciones proporcionadas:
 
 ### Tareas de Guillermo
-- [ ] **Posición**: Pasarla como una variable categórica y usar OneHotEncoder.
+- [x] **Posición**: Pasarla como una variable categórica y usar OneHotEncoder.
 - [ ] **Motivo de la Renuncia**: Continuar con la limpieza y clasificación de las razones, diferenciando entre renuncias voluntarias e impuestas. Dividir en columna con 1 como renuncia voluntaria y 2 como no voluntaria, aplicar variable categórica y emplear encoder.
 - [X] **Clave de sexo**: Convertir a datos categóricos en pandas (M para masculino, F para femenino).
 
@@ -14,14 +14,14 @@ Aquí tienes las tareas agrupadas y divididas entre Guillermo, Luis y Víctor, s
 
 ### Tareas de Víctor
 - [X] **A líquida**: Decidir si se elimina (Drop) por no estar disponible.
-- [ ] **Código Postal**: Usar API para determinar el lugar actual de vivienda, integrar los códigos que no corresponden y consumir API para agregar columna de distancia a Bosch.
+- [X] **Código Postal**: Usar API para determinar el lugar actual de vivienda, integrar los códigos que no corresponden y consumir API para agregar columna de distancia a Bosch.
 - [X] **Tiempo Viviendo en Ciudad Juárez**: Convertir a categoría.
 - [X] **Hijos**: Contabilizar el número de hijos y crear una nueva columna para indicar si tienen hijos o no.
 
 ### Tareas Pendientes (No Asignadas)
 - [ ] **Baja**: Fecha en que los empleados salen de la empresa.
 - [ ] **Alta**: Fecha en que los empleados entran a la empresa.
-- [ ] **Regla PHT**: Dejar para después como variable categórica.
+- [X] **Regla PHT**: Dejar para después como variable categórica.
 
 ### Tareas Completadas
 - [X] **Años**: Duración en años que el empleado estuvo en la empresa.
@@ -48,18 +48,18 @@ Esta es una rama de pruebas.
 - [ ] **Grupo de personal**: Luis proporcionará detalles en WhatsApp.
 - [ ] **Código Postal**: Usar API para determinar el lugar actual de vivienda. Dos códigos no corresponden.
 - [ ] **Motivo de la Renuncia**: Continuar con la limpieza y clasificación de las razones, diferenciando entre renuncias voluntarias e impuestas.
-- [ ] **Baja**: Fecha en que los empleados salen de la empresa.
-- [ ] **Alta**: Fecha en que los empleados entran a la empresa.
-- [ ] **Regla PHT**: Se desconoce su significado.
-- [ ] **Años**: Duración en años que el empleado estuvo en la empresa.
-- [ ] **Meses**: Duración en meses que el empleado estuvo en la empresa.
-- [ ] **Antigüedad**: Total de días que el empleado estuvo en la empresa.
-- [ ] **Clave de sexo**: M (Masculino) y F (Femenino).
-- [ ] **Lugar de Nacimiento**: Ya está limpio. Falta convertir a mayúsculas.
-- [ ] **Nacionalidad**: Información disponible.
-- [ ] **Edad del Empleado**: Información disponible.
+- [X] **Baja**: Fecha en que los empleados salen de la empresa.
+- [X] **Alta**: Fecha en que los empleados entran a la empresa.
+- [X] **Regla PHT**: Se desconoce su significado.
+- [X] **Años**: Duración en años que el empleado estuvo en la empresa.
+- [X] **Meses**: Duración en meses que el empleado estuvo en la empresa.
+- [X] **Antigüedad**: Total de días que el empleado estuvo en la empresa.
+- [X] **Clave de sexo**: M (Masculino) y F (Femenino).
+- [X] **Lugar de Nacimiento**: Ya está limpio. Falta convertir a mayúsculas.
+- [X] **Nacionalidad**: Información disponible.
+- [X] **Edad del Empleado**: Información disponible.
 - [X] **Tiempo Viviendo en Ciudad Juárez**: Convertir a categoría.
-- [ ] **Estado Civil**: Incluye soltero, casado, separado.
+- [X] **Estado Civil**: Incluye soltero, casado, separado.
 - [X] **Hijos**: Número de hijos. Crear nueva columna para indicar si tienen hijos o no.
 
 
