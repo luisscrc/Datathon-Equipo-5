@@ -1,0 +1,3 @@
+ 02-12-2023 20:12:24:448 [pid=92393 tid=92393] NOTICE  cufio-drv:705 running in compatible mode
+ 02-12-2023 20:12:24:448 [pid=92393 tid=92393] ERROR  cufio-plat:101 cannot open path /sys/bus/pci/devices/0000:09:00.0/resource No such file or directory
+ 02-12-2023 20:12:24:564 [pid=92393 tid=92393] ERROR  cufio-topo-udev:431 no device entries present in platform topology
